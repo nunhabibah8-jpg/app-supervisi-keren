@@ -179,7 +179,11 @@ const LandingPage = ({ onNavigate }) => {
             <div className="relative z-10 flex-1 flex justify-center mt-12 md:mt-0">
               <div className="relative">
                 <div className="w-56 h-72 bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white flex items-center justify-center">
-                  <UserCircle size={120} className="text-teal-100" />
+                  <img
+                   src="/avatar.jpg"
+                   alt="Supervisor"
+                   className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -top-4 -right-4 w-10 h-10 bg-white rounded-xl shadow-lg flex items-center justify-center text-[#2D7A78] animate-bounce"><Bell size={20} /></div>
                 <div className="absolute top-1/2 -left-6 w-10 h-10 bg-white rounded-xl shadow-lg flex items-center justify-center text-[#2D7A78]"><FileText size={20} /></div>
