@@ -174,7 +174,7 @@ const LandingPage = ({ onNavigate }) => {
                 src="/bg-pendidikan.png"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-white/70"></div>
+              <div className="absolute inset-0 bg-white/50"></div>
             </div>
             <div className="relative z-10 flex-1 text-center md:text-left">
               <h2 className="text-4xl md:text-6xl font-black text-gray-900 leading-[1.1] mb-8"> Supervisi Modern,<br /> <span className="text-[#2D7A78]">Guru Termotivasi,</span><br /> Murid Bahagia </h2>
