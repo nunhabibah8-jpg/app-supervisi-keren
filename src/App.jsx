@@ -180,7 +180,7 @@ const LandingPage = ({ onNavigate }) => {
               <div className="relative">
                 <div className="w-56 h-72 bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white flex items-center justify-center">
                   <img
-                   src="/avatar.jpg"
+                   src="/avatar.png"
                    alt="Supervisor"
                    className="w-full h-full object-cover"
                   />
