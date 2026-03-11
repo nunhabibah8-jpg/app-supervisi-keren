@@ -170,7 +170,11 @@ const LandingPage = ({ onNavigate }) => {
         <main className="flex-1 p-4 md:p-8 flex flex-col md:flex-row gap-6">
           <section className="flex-[3] bg-gray-50 rounded-[2.5rem] relative overflow-hidden flex flex-col md:flex-row items-center p-8 md:p-16">
             <div className="absolute inset-0 z-0">
-              <div className="w-full h-full bg-gradient-to-br from-teal-50 to-white"></div>
+              <img
+                src="/bg-pendidikan.jpg"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-white/70"></div>
             </div>
             <div className="relative z-10 flex-1 text-center md:text-left">
               <h2 className="text-4xl md:text-6xl font-black text-gray-900 leading-[1.1] mb-8"> Supervisi Modern,<br /> <span className="text-[#2D7A78]">Guru Termotivasi,</span><br /> Murid Bahagia </h2>
