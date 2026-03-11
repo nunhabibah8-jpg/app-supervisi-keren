@@ -171,7 +171,7 @@ const LandingPage = ({ onNavigate }) => {
           <section className="flex-[3] bg-gray-50 rounded-[2.5rem] relative overflow-hidden flex flex-col md:flex-row items-center p-8 md:p-16">
             <div className="absolute inset-0 z-0">
               <img
-                src="/bg-pendidikan.jpg"
+                src="/bg-pendidikan.png"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-white/70"></div>
