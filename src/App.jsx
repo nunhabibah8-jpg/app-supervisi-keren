@@ -1320,7 +1320,7 @@ const SCALE = 2;
                         </h2>
 
                         <h3 className="text-lg font-bold text-slate-700 print:text-base">
-                         {activities.find(a => a.id === activeFolder)?.title || "Perencanaan Pembelajaran"}
+                         TAHUN AJARAN {config.tahunAjaran}
                         </h3>
                       </div>
 
